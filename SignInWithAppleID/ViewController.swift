@@ -8,7 +8,9 @@ import AuthenticationServices
 import UIKit
 
 class ViewController: UIViewController {
+    
     private let signInButton = ASAuthorizationAppleIDButton()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(signInButton)
@@ -37,6 +39,7 @@ extension ViewController: ASAuthorizationControllerDelegate{
     func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
         print("Error!")
     }
+    
     func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
         switch authorization.credential{
         case let credentials as ASAuthorizationAppleIDCredential:
