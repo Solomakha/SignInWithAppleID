@@ -49,6 +49,7 @@
 		84CB11BF2878417A006F65FB /* SignInWithAppleIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInWithAppleIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CB11C32878417A006F65FB /* SignInWithAppleIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleIDUITests.swift; sourceTree = "<group>"; };
 		84CB11C52878417A006F65FB /* SignInWithAppleIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84CB11D22878418D006F65FB /* SignInWithAppleID.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignInWithAppleID.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		84CB11A128784177006F65FB /* SignInWithAppleID */ = {
 			isa = PBXGroup;
 			children = (
+				84CB11D22878418D006F65FB /* SignInWithAppleID.entitlements */,
 				84CB11A228784177006F65FB /* AppDelegate.swift */,
 				84CB11A428784177006F65FB /* SceneDelegate.swift */,
 				84CB11A628784177006F65FB /* ViewController.swift */,
@@ -435,8 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SignInWithAppleID/SignInWithAppleID.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTBSRNSWGH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SignInWithAppleID/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -462,8 +466,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SignInWithAppleID/SignInWithAppleID.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTBSRNSWGH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SignInWithAppleID/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
